@@ -10,7 +10,7 @@ export const ShopContext = createContext();
 const ShopContextProvider = (props) => { 
     const currency = '$'; 
     const delivery_fee = 10; 
-    const backendUrl = "https://forever-backend-qadk.onrender.com"
+    const backendUrl = "https://forever-backend-9a0y.onrender.com"
     console.log(backendUrl)
     const [search, setSearch] = useState('');
     const [showSearch, setShowSearch] = useState(false);
